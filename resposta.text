@@ -1,0 +1,6 @@
+Leandro Precaro - T15
+
+
+Models --> Acessa o banco de dados e determina as regras de busca do banconde dados, ou seja, como vai ser filtrado cada informação de lá.
+Controller --> Faz a ligaçõa entre o banco de dados e o front end, ou seja, intermediaçõa entre o View e o Models
+EndPoint --> Rotas de comunicação entre dispositivo e sistema.
