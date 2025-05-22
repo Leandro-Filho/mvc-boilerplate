@@ -1,4 +1,4 @@
-const Aluno = require('../models/alunos');
+const Aluno = require('../models/aluno');
 const Curso = require('../models/curso');
 
 exports.index = async (req, res) => {

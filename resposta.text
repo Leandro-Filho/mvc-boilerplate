@@ -1,6 +1,26 @@
 Leandro Precaro - T15
 
 
-Models --> Acessa o banco de dados e determina as regras de busca do banconde dados, ou seja, como vai ser filtrado cada informação de lá.
+Models --> Acessa o banco de dados e determina as regras de busca do banco de dados, ou seja, como vai ser filtrado cada informação de lá.
 Controller --> Faz a ligaçõa entre o banco de dados e o front end, ou seja, intermediaçõa entre o View e o Models
 EndPoint --> Rotas de comunicação entre dispositivo e sistema.
+
+
+ RESPOSTAS DA AULA 06
+
+ Explique com suas palavras o papel de cada camada da arquitetura MVC usada neste projeto.
+Como o Model, o Controller e a View interagem entre si?
+
+RESPOSTA: O model será o lugar que terá a lógica que o site irá conversar com o banco de dados, sem se preocupar com o views e as regras de negócios.
+          O controller funciona fazendo a regra de a ligação entre todo site: O model, a requisição do usuário e banco de dados.
+          O view é responsável por mostrar ao usuário o site em si, ou seja, o HTML.
+
+    Como ocorre o envio e o recebimento de dados no formato JSON neste projeto?
+    Cite uma rota que responde em JSON e explique seu funcionamento.
+
+RESPOSTA: nesse projeto, os arquivos json são responsáveis por mandar informações para o banco de dados e recebe-las, através do express.json() e o res.json(). um exemplo claro é quando voce pede para mostrar todos os usuários cadastrados e o site responde mandando a lista dos usuários.
+
+Qual a importância de usar HTML básico com formulários e tabelas para organizar e manipular dados no navegador?
+Por que esse tipo de estrutura ainda é útil em projetos back-end com Node.js?
+
+RESPOSTA: O HTML básico é importante para que o usuário consiga manipular todos os dados diretamente do site. mesmo em projetos de node.js, é importante para que seja facilitado a interação entre o view e o banco de dados. 
